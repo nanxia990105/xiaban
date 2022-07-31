@@ -12,13 +12,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm run el-start`
-You can see electron started [show more](https://www.electronjs.org/)
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -30,6 +23,10 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+
+### `npm run el-start`
+You can see electron started [show more](https://www.electronjs.org/)
+
 ###Build by exe (only windows) 
 You run `npm run build` and will be generated `build` dir , 
 and use `npm run packager-win` (This package command is use [electron-packager](https://electron.github.io/electron-packager/main/))
@@ -37,4 +34,4 @@ will be generated `release` dir.
 
 ### Some package of the problems I've had  
 I run the executable packaged some runtime error `cant find module ` you can run `npm install` in build dir,  and npm install option need use `--save`, not use `--save-dev`.
-And restart `npm run el-start`
+And restart `npm run package-win`
